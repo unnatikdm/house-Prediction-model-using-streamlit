@@ -34,6 +34,4 @@ joblib.dump(clf_train, '/home/unnatikdm/itr/model_knn.pkl')
 pred = clf_train.predict(X_test)
 print(f"R2 Score: {r2_score(y_test, pred)}")
 
-print(df.iloc[0])
-
 
